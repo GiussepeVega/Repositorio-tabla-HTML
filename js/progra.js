@@ -6,6 +6,7 @@ let name = prompt("Ingresa tu nombre")
 alert("Hola " + name + " bienvenido a esta pagina")
 
 
+// funcion para cambio de color automatico
 function cambiarColor(){
     
 
@@ -18,4 +19,6 @@ document.querySelector("h1").style.color="rgb(" + a + "," + b + "," + c + ")";
 setTimeout("cambiarColor()", 1000);
 
 }
+
+console.log("Comentario echo desde GitHub")
 
